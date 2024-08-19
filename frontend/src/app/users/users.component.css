@@ -1,0 +1,75 @@
+table {
+    width : 100%;
+    tr {
+        width: 100%;
+    }
+
+    th , td {
+        padding: 1rem;
+        border:1px solid grey;
+    }
+}
+
+.custom-button {
+    font-size: 16px; /* Adjusts the font size */
+    padding: 10px 20px; /* Adds padding to make the button larger */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    margin: 10px; /* Adds margin between buttons */
+  }
+  
+  .edit-button {
+    background-color: #1976d2; /* Override accent color */
+    color: white; /* Ensure text color is readable */
+  }
+  
+  .delete-button {
+    background-color: #d32f2f; /* Override warn color */
+    color: white; /* Ensure text color is readable */
+  }
+  
+  .custom-button:hover {
+    transform: scale(1.05); /* Slightly increase the size on hover */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3); /* Intensify the shadow on hover */
+  }
+  
+  .custom-button:active {
+    transform: scale(0.95); /* Slightly decrease the size on click */
+    box-shadow: none; /* Remove shadow on click */
+  }
+  
+
+  .custom-header {
+    font-size: 24px; /* Adjusts the font size */
+    font-weight: bold; /* Makes the text bold */
+    color: #333; /* Dark gray text color */
+    text-align: center; /* Centers the header text */
+    margin-bottom: 30px; /* Adds more space below the header */
+    border-bottom: 2px solid #1976d2; /* Adds a bottom border with primary color */
+    padding-bottom: 10px; /* Adds padding to the bottom of the header */
+  }
+  
+  .custom-button {
+    font-size: 16px; /* Adjusts the font size */
+    padding: 10px 20px; /* Adds padding to make the button larger */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    margin-top: 20px; /* Adds space above the button */
+    margin-left: 20px; /* Adds space to the left of the button */
+  }
+  
+  .add-user-button {
+    background-color: #0288d1; /* Override primary color */
+    color: white; /* Ensure text color is readable */
+  }
+  
+  .custom-button:hover {
+    transform: scale(1.05); /* Slightly increase the size on hover */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3); /* Intensify the shadow on hover */
+  }
+  
+  .custom-button:active {
+    transform: scale(0.95); /* Slightly decrease the size on click */
+    box-shadow: none; /* Remove shadow on click */
+  }
+  
